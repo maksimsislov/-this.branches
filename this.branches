@@ -1,0 +1,4 @@
+branch(newBranch) {
+    this.branches[newBranch] = [...this.branches[this.currentBranch]];
+    console.log(`Created branch: ${newBranch}`);
+  }
